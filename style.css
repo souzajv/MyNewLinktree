@@ -32,6 +32,7 @@ main {
     margin: 38px auto;
     padding: 0 24px;
 }
+
 #switch {
     position: relative;
     width: 54px;
@@ -96,6 +97,9 @@ main {
     font-size: 16px;
     margin-bottom: 18px;
 }
+#inteliLink {
+    text-decoration: none;
+}
 ul {
     list-style: none;
     gap: 16px;
@@ -117,7 +121,7 @@ ul li a {
     background: var(--surface-color);
     backdrop-filter: blur(4px);
 }
-ul li:last-child a {1
+ul li:last-child a {
     margin-bottom: 0;
 }
 ul li a::before {  
